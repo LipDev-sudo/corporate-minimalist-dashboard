@@ -1,7 +1,19 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
 
-  import { createRoot } from "react-dom/client";
-  import App from "./app/App.tsx";
-  import "./styles/index.css";
+const App = () => {
+  return (
+    <div style={{ padding: 40 }}>
+      <h1>Deploy funcionando 🚀</h1>
+      <p>Se você está vendo isso, o Netlify está OK.</p>
+    </div>
+  );
+};
 
-  createRoot(document.getElementById("root")!).render(<App />);
-  
+ReactDOM.createRoot(
+  document.getElementById("root") as HTMLElement
+).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
