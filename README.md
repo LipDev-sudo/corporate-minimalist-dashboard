@@ -1,47 +1,50 @@
 # Corporate Minimalist Dashboard
 
-Protótipo de **sistema de gestão corporativo com visual minimalista**, focado em **clareza, usabilidade e tomada de decisão**.  
-Este projeto foi concebido como **base visual e estrutural** para um sistema de gestão, podendo evoluir para um MVP funcional conforme a necessidade do negócio.
+Prototipo de sistema de gestao corporativo com visual minimalista, focado em clareza, usabilidade e tomada de decisao.
 
-O design prioriza:
-- Interface limpa e objetiva
-- Organização clara de informações
-- Experiência adequada para uso diário por equipes administrativas
+Concebido como base visual e estrutural para um sistema de gestao, podendo evoluir para um MVP funcional conforme a necessidade do negocio.
 
-O layout original foi inspirado no design disponível no Figma:  
+O layout original foi inspirado no design disponivel no Figma:
 https://www.figma.com/design/CgEda1gVyGI8fWcYNZaSoU/Corporate-Minimalist-Dashboard
 
----
+## Objetivo
 
-##  Objetivo do Projeto
+- Validar fluxos e experiencia de uso
+- Servir como base para apresentacoes e demonstracoes
+- Evoluir para um sistema real de gestao por modulos
+- Demonstrar organizacao, padrao visual e estrutura tecnica
 
-- Validar fluxos e experiência de uso
-- Servir como base para apresentações e demonstrações
-- Evoluir para um sistema real de gestão por módulos
-- Demonstrar organização, padrão visual e estrutura técnica
+Este repositorio nao representa um sistema final, mas sim um prototipo navegavel e extensivel.
 
-Este repositório **não representa um sistema final**, mas sim um **protótipo navegável e extensível**.
+## Tecnologias
 
----
-
-##  Tecnologias Utilizadas
-
-- Node.js
 - Next.js
 - React
-- Componentização moderna
-- Estilo minimalista orientado a dashboards corporativos
+- TypeScript
+- Tailwind CSS
+- Componentizacao moderna
 
----
+## Como rodar
 
-##  Como executar o projeto localmente
+```bash
+npm install
+npm run dev
+```
 
-### Pré-requisitos
-- Node.js (versão LTS recomendada)
-- npm
+Acesse `http://localhost:3000` no navegador.
 
-### Passo a passo
+## Funcionalidades
 
-1. Instale as dependências:
-   ```bash
-   npm install
+- Dashboard com metricas e KPIs
+- Navegacao lateral minimalista
+- Graficos e visualizacao de dados
+- Layout responsivo
+- Estrutura modular e escalavel
+
+## Autor
+
+**Hamilton Felipe Soares da Silva** - [LipDev.BR](https://github.com/LipDev-sudo)
+
+## Licenca
+
+Este projeto esta sob a licenca MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
